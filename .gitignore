@@ -1,7 +1,7 @@
 # Local .terraform directories 本地缓存文件
 **/.terraform/*
 
-# .tfstate files
+# .tfstate files - compare differences
 *.tfstate
 *.tfstate.*
 
