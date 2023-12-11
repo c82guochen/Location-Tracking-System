@@ -8,7 +8,7 @@ variable "app_name" {
   description = "Name of the application"  
 }
 
-# 配了公网和子网，以免一方被占用
+# 配了公网和子网，以免一方被占用（定义一些网络range，理解成配置VPC的路由）
 variable "public_subnets" {
     default = ["10.10.100.0/24", "10.10.101.0/24"]
 }
