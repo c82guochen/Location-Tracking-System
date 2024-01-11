@@ -1,7 +1,7 @@
 # terraform的entry point文件
 terraform { # enable terraform
   required_providers {
-    aws = {
+    aws = { # platform applied
         source = "hashicorp/aws"
         version = "~> 4.0"
     }
