@@ -5,6 +5,7 @@ resource "aws_vpc" "vpc" {
 # "aws_vpc" 指明了资源类型，这里表示它是一个 AWS VPC。
 # "vpc" 是此特定资源的本地名称，您在 Terraform 配置中引用此 VPC 时将使用这个名称。
     cidr_block = "10.10.0.0/16"
+    # cidr is a collection of IP addresses that share the same network prefix and number of bits. that
     # cidr_block 属性指定了 VPC 的 IP 地址范围。
     # 这里使用的是 "10.10.0.0/16"，表示这个 VPC 将拥有从 10.10.0.0 到 10.10.255.255 的 IP 地址范围。
     enable_dns_hostnames = true
