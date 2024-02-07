@@ -1,5 +1,5 @@
 variable "aws_region" {
-  
+  // 若没写，会去git actions - secrets中找该内容
 }
 
 variable "app_name" {
